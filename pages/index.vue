@@ -6,7 +6,7 @@
 		DevBootCamp.io
       </h1>
       <h2 class="subtitle">
-		Coming Soon
+		Coming Soon See Github
       </h2>
       <div class="links">
       </div>
