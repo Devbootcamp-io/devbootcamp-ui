@@ -1,7 +1,7 @@
 {
   "name": "devbootcamp",
   "version": "1.0.0",
-  "description": "My astonishing Nuxt.js project",
+  "description":" Dev Boot Camp Website",
   "author": "Erik Hanchett",
   "private": true,
   "scripts": {
