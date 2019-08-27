@@ -3,19 +3,18 @@
     <div>
       <logo />
       <h1 class="title">
-		DevBootCamp.io
+        DevBootCamp.io
       </h1>
       <h2 class="subtitle">
-		Coming Soon
+        Coming Soon
       </h2>
-      <div class="links">
-      </div>
+      <div class="links" />
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from "~/components/Logo.vue"
 
 export default {
   components: {
@@ -35,8 +34,8 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
