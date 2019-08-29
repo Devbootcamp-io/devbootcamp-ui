@@ -13,6 +13,23 @@ Fork this repository and run
 ```npm install```
 ```npm run dev```
 
+To setup VS Code install the ESLint Extension and the Vetur extension
+Add this to your VS Code settings
+
+```
+  "editor.formatOnSave": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.options": {
+    "extensions": [ ".html", ".js", ".vue", ".jsx" ]
+  },
+  "eslint.validate": [
+    { "language": "html", "autoFix": true },
+    { "language": "vue", "autoFix": true },
+    { "language": "javascript", "autoFix": true },
+    { "language": "javascriptreact", "autoFix": true }
+  ],
+  "vetur.validation.template": false,
+```
 To build
 
 ```npm run build```
@@ -37,8 +54,7 @@ Test are created with vue-test-utils and jest. To run them use
 
 ### Coding style tests
 
-We use eslint and linting must pass for you to merge any PR. 
-
+We use prettier and eslint. Linting must pass for merging PRs. To setup prettier add this to your VS Code settings.
 
 ## Deployment
 
