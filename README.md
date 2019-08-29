@@ -11,6 +11,11 @@ We love for any and all contributions! For now look over the issues list, or joi
 Fork this repository and run
 
 ```npm install```
+```npm run dev```
+
+To build
+
+```npm run build```
 
 
 
@@ -30,14 +35,14 @@ Test are created with vue-test-utils and jest. To run them use
 ```npm run test```
 
 
-### And coding style tests
+### Coding style tests
 
 We use eslint and linting must pass for you to merge any PR. 
 
 
 ## Deployment
 
-Deployment is already setup with now.sh.
+Deployment is already setup with zeit. Zeit will push on every merge to staging and prod.
 
 ## Built With
 
