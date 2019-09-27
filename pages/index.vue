@@ -60,7 +60,7 @@ export default {
   align-items: end;
   flex-direction: column;
   h1 {
-    font-size: 75px;
+    font-size: 85px;
     margin-left: 40px;
   }
   h5 {
@@ -71,7 +71,7 @@ export default {
   .email-input-wrapper {
     margin-left: 40px;
     margin-bottom: 40px;
-    width: 100%;
+    width: 75%;
     min-height: 50px;
     input {
       border-radius: 5px;
