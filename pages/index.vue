@@ -10,13 +10,18 @@
       <h1>Bootcamp Prep For Developers!</h1>
       <h5>Coming Soon! Sign up to learn all about it</h5>
       <div class="email-input-wrapper">
-        <input type="email" placeholder="Email" />
-        <button>Submit</button>
+        <!-- <input type="email" placeholder="Email" /> -->
+        <!-- <button>Submit</button> -->
+        <script
+          async
+          data-uid="ae03f93c6b"
+          src="https://program-with-erik.ck.page/ae03f93c6b/index.js"
+        ></script>
       </div>
       <div class="info-wrapper">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero
-          quisquam id earum tempore expedita?
+          I will never sell your email! When you join I'll send you some FREE
+          resources so you can become a better developer!
         </p>
       </div>
     </div>
@@ -44,6 +49,9 @@ export default {
     display: none;
   }
 }
+.formkit-powered-by {
+  display: none !important;
+}
 
 .right {
   font-family: "Barlow Condensed", sans-serif;
@@ -52,19 +60,25 @@ export default {
   align-items: end;
   flex-direction: column;
   h1 {
-    font-size: 51px;
+    font-size: 75px;
     margin-left: 40px;
   }
   h5 {
+    font-size: 25px;
     margin: 0 0 40px 40px;
   }
 
   .email-input-wrapper {
     margin-left: 40px;
     margin-bottom: 40px;
+    width: 100%;
+    min-height: 50px;
     input {
       border-radius: 5px;
       text-indent: 10px;
+      font-size: 20px;
+      height: 100%;
+      width: 35%;
     }
     button {
       all: unset;
@@ -72,7 +86,7 @@ export default {
       background-image: linear-gradient(to right, orange, red);
       text-align: center;
       width: 100px;
-      height: 25px;
+      height: 100%;
       color: navajowhite;
     }
   }
