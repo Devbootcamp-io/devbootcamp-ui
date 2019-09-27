@@ -1,62 +1,87 @@
 <template>
   <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        DevBootCamp.io
-      </h1>
-      <h2 class="subtitle">
-        Coming Soon See
-        <a
-          href="https://github.com/Devbootcamp-io/devbootcamp-ui"
-          target="_blank"
-          >Github
-        </a>
-      </h2>
-      <div class="links" />
+    <div class="left">
+      <img
+        src="https://res.cloudinary.com/dzffvum1n/image/upload/v1569552077/background-withdesk_lmg1yk.svg"
+        alt=""
+      />
+    </div>
+    <div class="right">
+      <h1>Bootcamp Prep For Developers!</h1>
+      <h5>Coming Soon! Sign up to learn all about it</h5>
+      <div class="email-input-wrapper">
+        <input type="email" placeholder="Email" />
+        <button>Submit</button>
+      </div>
+      <div class="info-wrapper">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero
+          quisquam id earum tempore expedita?
+        </p>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue"
-
 export default {
-  components: {
-    Logo
-  }
+  components: {}
 }
 </script>
 
 <style lang="scss">
 .container {
-  margin: 0 auto;
-  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 53fr 47fr;
+  height: 100vh;
+}
+.left {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  flex-direction: column;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+.right {
+  font-family: "Barlow Condensed", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  h1 {
+    font-size: 51px;
+    margin-left: 40px;
+  }
+  h5 {
+    margin: 0 0 40px 40px;
+  }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+  .email-input-wrapper {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    input {
+      border-radius: 5px;
+      text-indent: 10px;
+    }
+    button {
+      all: unset;
+      border-radius: 10px;
+      background-image: linear-gradient(to right, orange, red);
+      text-align: center;
+      width: 100px;
+      height: 25px;
+      color: navajowhite;
+    }
+  }
+  .info-wrapper {
+    max-width: 50%;
+    margin-left: 40px;
+    p {
+      color: gray;
+    }
+  }
 }
 </style>
