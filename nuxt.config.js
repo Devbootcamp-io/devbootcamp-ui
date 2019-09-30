@@ -41,15 +41,22 @@ export default {
    ** Nuxt.js modules
    */
   modules: [],
+  vuetify: {
+    optionsPath: "./vuetify.options.js"
+  },
 
-  buildModules: ["@nuxt/typescript-build"],
+  buildModules: ["@nuxt/typescript-build", "@nuxtjs/vuetify"],
   /*
    ** Build configuration
    */
+  // extractCSS: { ignoreOrder: true },
   build: {
     /*
      ** You can extend webpack config here
      */
+    extractCSS: {
+      ignoreOrder: true
+    },
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
