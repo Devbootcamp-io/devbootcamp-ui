@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Lorem ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "rank": 1,
+    "locations": [
+      {
+        "id": 1,
+        "city": "New York"
+      },
+      {
+        "id": 2,
+        "city": "San Francisco"
+      },
+      {
+        "id": 3,
+        "city": "Los Angeles"
+      }
+    ],
+    "courses": [
+      {
+        "name": "NuxtJS development",
+        "description": "Fames ac turpis egestas sed tempus urna et pharetra. Vestibulum morbi blandit cursus risus at. Cursus sit amet dictum sit amet justo. A pellentesque sit amet porttitor eget dolor morbi non. Et leo duis ut diam quam. Massa tincidunt nunc pulvinar sapien et ligula.",
+        "price": 5000,
+        "duration": 10
+      },
+      {
+        "name": "VueJS development",
+        "description": "Fames ac turpis egestas sed tempus urna et pharetra. Vestibulum morbi blandit cursus risus at. Cursus sit amet dictum sit amet justo. A pellentesque sit amet porttitor eget dolor morbi non. Et leo duis ut diam quam. Massa tincidunt nunc pulvinar sapien et ligula.",
+        "price": 6000,
+        "duration": 12
+      }
+    ],
+    "overallRating": 4.5,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "rating": 5,
+        "comment": "Odio facilisis mauris sit amet. A diam maecenas sed enim ut sem viverra aliquet. Sed viverra tellus in hac habitasse. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Nibh venenatis cras sed felis. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Euismod in pellentesque massa placerat duis ultricies lacus."
+      },
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "rating": 4,
+        "comment": "Etiam non quam lacus suspendisse faucibus interdum. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. Sed viverra ipsum nunc aliquet bibendum enim. Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Vestibulum morbi",
+    "description": "Vestibulum morbi dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "rank": 2,
+    "locations": [
+      {
+        "id": 1,
+        "city": "New York"
+      },
+      {
+        "id": 2,
+        "city": "San Francisco"
+      },
+      {
+        "id": 3,
+        "city": "Los Angeles"
+      }
+    ],
+    "courses": [
+      {
+        "name": "VueJS development",
+        "description": "Fames ac turpis egestas sed tempus urna et pharetra. Vestibulum morbi blandit cursus risus at. Cursus sit amet dictum sit amet justo. A pellentesque sit amet porttitor eget dolor morbi non. Et leo duis ut diam quam. Massa tincidunt nunc pulvinar sapien et ligula.",
+        "price": 6000,
+        "duration": 12
+      }
+    ],
+    "overallRating": 5,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "rating": 5,
+        "comment": "Odio facilisis mauris sit amet. A diam maecenas sed enim ut sem viverra aliquet. Sed viverra tellus in hac habitasse. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Nibh venenatis cras sed felis. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Euismod in pellentesque massa placerat duis ultricies lacus."
+      },
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "rating": 5,
+        "comment": "Etiam non quam lacus suspendisse faucibus interdum. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. Sed viverra ipsum nunc aliquet bibendum enim. Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque"
+      }
+    ]
+  }
+]
