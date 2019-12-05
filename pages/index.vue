@@ -8,7 +8,7 @@
     </div>
     <div class="right">
       <h1>Bootcamp Prep For Developers!</h1>
-      <h5>Coming Soon! Sign up to learn all about it</h5>
+      <h5>Coming Soon! Sign up to learn all about it!!</h5>
       <div class="email-input-wrapper">
         <!-- <input type="email" placeholder="Email" /> -->
         <!-- <button>Submit</button> -->
