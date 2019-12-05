@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import Vue, { PropOptions } from "vue"
+import Vue, { PropOptions } from 'vue'
 
 interface User {
   firstName: string
@@ -13,7 +13,7 @@ interface User {
 }
 
 export default Vue.extend({
-  name: "YourComponent",
+  name: 'YourComponent',
 
   props: {
     user: {
@@ -24,7 +24,7 @@ export default Vue.extend({
 
   data() {
     return {
-      message: "This is a message"
+      message: 'This is a message'
     }
   },
 

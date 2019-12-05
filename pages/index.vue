@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <v-container class="home-container">
     <div class="left">
       <img
         src="https://res.cloudinary.com/dzffvum1n/image/upload/v1569552077/background-withdesk_lmg1yk.svg"
@@ -25,7 +25,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style lang="scss">
-.container {
+.home-container {
   display: grid;
   grid-template-columns: 53fr 47fr;
   height: 100vh;
@@ -54,7 +54,7 @@ export default {
 }
 
 .right {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   display: flex;
   justify-content: center;
   align-items: end;
