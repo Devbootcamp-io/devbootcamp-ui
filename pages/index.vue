@@ -12,11 +12,11 @@
       <div class="email-input-wrapper">
         <!-- <input type="email" placeholder="Email" /> -->
         <!-- <button>Submit</button> -->
-        <script
+        <!-- <script
           async
           data-uid="ae03f93c6b"
           src="https://program-with-erik.ck.page/ae03f93c6b/index.js"
-        ></script>
+        ></script> -->
       </div>
       <div class="info-wrapper">
         <p>

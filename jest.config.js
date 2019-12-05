@@ -18,5 +18,11 @@ module.exports = {
   collectCoverageFrom: [
     '<rootDir>/components/**/*.vue',
     '<rootDir>/pages/*.vue'
+  ],
+  coveragePathIgnorePatterns: [
+    '/node_modules/',
+    'testconfig.js',
+    'package.json',
+    'package-lock.json'
   ]
 }

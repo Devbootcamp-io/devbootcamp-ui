@@ -1,0 +1,6 @@
+{
+  "alias": ["staging.devbootcamp.io"],
+  "github": {
+    "autoAlias": true
+  }
+}
